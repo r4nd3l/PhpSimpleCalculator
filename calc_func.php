@@ -12,6 +12,16 @@ class Calc{
     $this->cal = $cal;
   }
 
+  // You don't have to initialise object properties in
+  // the contstructor method of all classes you create!
+  // We are only doing so in this exercise because it
+  // suits the application
+  //
+  // Some programmers believe that initializising
+  // object properties is bad practice, Personally I
+  // think it is okay when you are certain that all
+  // properties will have values assigned to them
+
   public function calcMethod(){
     switch($this->cal){
       case 'add':
