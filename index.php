@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- DevCorner - Favicon -->
+  <link rel="shortcut icon" href="img/favicon.svg"/>
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico"/>
+
+  <!-- Font-Awesome -->
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+
+  <!-- Custom Css -->
+  <link rel="stylesheet" href="css/root.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Google Fonts Roboto - Fallback -->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> -->
+
+  <title>DevCorner</title>
+</head>
+<body>
+  <i class="fas fa-code" id="_myBtn"></i>
+
+  <!-- Content will goes here -->
+  <section>
+    <form action="calc.php" method="POST">
+      <input type="text" name="num1">
+      <input type="text" name="num2">
+      <select name="cal">
+        <option value="add">Add</option>
+        <option value="sub">Subtract</option>
+        <option value="mul">Multiply</option>
+      </select>
+      <button type="submit">Calculate</button>
+    </form>
+  </section>
+  <!-- Content will goes here - END -->
+
+  <!-- The Modal -->
+  <div id="_myModal" class="_modal">
+    <div class="_modal-content">
+      <div class="_modal-header"><span class="_close"><i class="far fa-times-circle"></i></span></div>
+      <div class="_modal-body">
+        <span class="_brand"><i class="fas fa-code"></i> DevCorner Community</span><br>
+        <span class="_slogan">The independent web developer <a href="https://github.com/r4nd3l" title="Github sources" class="_community">community</a></span>
+       </div>
+    </div>
+  </div>
+  <!-- The Modal - END -->
+  <script src="js/jquery-3.3.1.min.js" charset="utf-8"></script>
+  <script src="js/main.js" charset="utf-8"></script>
+
+</body>
+</html>
